@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 .topo{
-    width: 100%;
+    width: 100vw;
     height: 100px;
     background-color: #604829;
     position: fixed;
@@ -34,7 +34,7 @@
     background-image: url('img/parallax-imagem1.png');
     background-size: cover;
    background-attachment: fixed;
-    width: 100%;
+    width: 100vw;
     height: 100vh;
     position: relative;
 }
@@ -46,7 +46,7 @@
     font-family: 'lato', sans-serif;
 }
 .endereco{
-    width: 100%;
+    width: 100vw;
     height: 800px;
     background-image: url('img/parallax-imagem4.png');
     background-size: cover  ;
@@ -83,7 +83,7 @@
     background-size: cover;
     background-attachment: fixed;
     height: 300px;
-    width: 100%;
+    width: 100vw;
     position: relative;
 }    
 .img-fundo2{
@@ -92,7 +92,7 @@
     background-attachment: fixed;
     background-position: center;
     height: 300px;
-    width: 100%;
+    width: 100vw;
     position: relative;
 }
 .atendimento{
@@ -101,7 +101,7 @@
     background-attachment: fixed;
     height: 700px;
     color: #fff;
-    width: 100%;
+    width: 100vw;
     text-align: center;
     padding-top: 10px;
 }
@@ -143,6 +143,7 @@
     margin:  auto ;
 }
 .rodape{
+    width: 100vw;
     background-color: #000000;
     color: #fff;
     text-align: center;
