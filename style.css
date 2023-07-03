@@ -2,9 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
-    
-    
 }
 .topo{
     width: 100%;
@@ -12,8 +9,6 @@
     background-color: #604829;
     position: fixed;
     z-index: 1;
-    
-    
 }
 .navegacao{
     position: absolute;
@@ -21,7 +16,6 @@
     top: 40px;
     font-family: 'oswald',sans-serif;
     text-decoration: none;
-    
 }
 .navegacao a{
     font-family: 'oswald',sans-serif;
@@ -43,9 +37,6 @@
     width: 100%;
     height: 100vh;
     position: relative;
-    
-    
-    
 }
 .conteudo, .endereco{
     text-align: center;
@@ -61,7 +52,6 @@
     background-size: cover  ;
     background-attachment: fixed;
     padding-top: 6px;
-    
 }
 .endereco h2, .endereco div{
     background-color: #604829;
@@ -115,6 +105,43 @@
     text-align: center;
     padding-top: 10px;
 }
+.atendimento h2{
+    font-family: 'lato';
+    font-size: 25px;
+}
+.lista{
+    width:800px ;
+    height: 400px;
+    margin: 60px auto;
+    position: relative;
+}
+.lista li{
+    text-align: left;
+    font-size: 20px;
+    line-height: 55px;
+    margin-top: 5;
+    font-family: 'oswald';
+    position: relative;
+    font-weight: bold;
+}
+.lista .hora{
+    position: absolute;
+    right: 0;
+    top:0;
+    font: size 15px; ;
+}
+.lista .hora span{
+    color: #c4a47c;
+    margin-left: 10px;
+}
+.lista li div hr{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 55%;
+    width: 70%;
+    margin:  auto ;
+}
 .rodape{
     background-color: #000000;
     color: #fff;
@@ -125,14 +152,12 @@
     font-family: 'lato', sans-serif;
     font-size: 12px;
     line-height: 15px;
-
 }
 .rodape a{
     position:absolute;
     top: -35px;
     right: 0;
     width: 100px;
-    
 }
 .rodape span{
     color: #c4a47c;
@@ -148,7 +173,6 @@ h3{
     left: 35%;
     background-color: #604829;
     padding: 2px 30px;
-
 }
 h1{
     position:absolute;
