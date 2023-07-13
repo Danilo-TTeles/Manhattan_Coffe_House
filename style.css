@@ -3,168 +3,199 @@
     padding: 0;
     box-sizing: border-box;
 }
-.topo{
-    width: 100vw;
-    height: 100px;
+.menu{
+    width: 100%;
     background-color: #604829;
     position: fixed;
     z-index: 1;
+    box-sizing: border-box;
+}
+.with-max-menu{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.with-max{
+    padding-top: 100px;
+}
+.with-max-menu img{
+    width: 100px;
 }
 .navegacao{
-    position: absolute;
-    right: 15%;
-    top: 40px;
-    font-family: 'oswald',sans-serif;
-    text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 .navegacao a{
     font-family: 'oswald',sans-serif;
     text-decoration: none;
     color: #c4a47c;
     font-size: 20px;
-    padding-left: 20px;
+    margin-left: 40px;
     text-shadow:1px 5px 3px #000000;
+    padding-bottom: 5px;
 }
-.topo img{
-    position:absolute;
-    left: 15%;
-    width: 100px;
+.navegacao a:hover{
+    border-bottom: 1px solid #c4a47c;
 }
 .banner{
     background-image: url('img/parallax-imagem1.png');
     background-size: cover;
-   background-attachment: fixed;
-    width: 100%;
-    height: 100vh;
-    position: relative;
-}
-.conteudo, .endereco{
-    text-align: center;
-    margin: 50px auto;
-    width: 1024px;
-    line-height: 28px;
-    font-family: 'lato', sans-serif;
-}
-.endereco{
-    width: 100%;
-    height: 800px;
-    background-image: url('img/parallax-imagem4.png');
-    background-size: cover  ;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    padding-top: 6px;
-    margin-bottom: 0;
+    flex-shrink: 1;
+    width: 100%;
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    font-family: 'FRAUNCES',serif;
+    font-size: 40px;
+    text-align: center;
 }
-.endereco h2, .endereco div{
-    background-color: #604829;
-    margin-left: 32%;
-    margin-right: 32%;
-    color: #fff;
-    padding-top: 4px;
-    padding-bottom:4px ;
+.with-max, .rodape{
+    max-width:1024px ;
+    margin: 0 auto;
 }
-.endereco h2{
-    margin-top: 85px;
-    margin-bottom: 40px;
-}
-.endereco div{
-    text-shadow:1px 5px 3px #000000;
-    font-size: 13px;
-    margin-top: 30px;
-}
-.conteudo h2{
+.with-max h2{
+    text-align: center;
     color: #c4a47c;
     font-family: 'oswald', sans-serif;
-    margin-top: 50px;
+    font-size: 27px;
+    margin-bottom: 30px;
 }
-.conteudo p{
-    margin:20px 85px 50px;
+.with-max p, .contatos {
+    line-height: 28px;
+    font-family: 'lato', sans-serif;
+    font-size: 18px;
+    text-align: center;
 }
-.img-fundo1{
-    background-image: url('img/parallax-imagem2.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    height: 300px;
-    width: 100%;
-    position: relative;
-}    
-.img-fundo2{
-    background-image: url('img/parallax-imagem3.jpg');
+.with-max p{
+    color: #727171;
+}
+.img-1, .img-2{
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
     height: 300px;
     width: 100%;
-    position: relative;
+    color: #fff;
+    font-family: 'fraunces', sans-serif;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
 }
-.atendimento{
+.img-1 h3, .img-2 h3{
+    background-color: #604829;
+    text-shadow:1px 5px 3px #000000;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    font-family: 'fraunces', sans-serif;
+    font-size: 20px;
+    padding: 10px 0;
+    border-radius: 3px;
+}
+.img-1{
+    background-image: url('img/parallax-imagem2.jpg');
+}
+.img-2{
+    background-image: url('img/parallax-imagem3.jpg');
+}
+.contatos , #contatos h2{
+    text-align: center;
+    background-color: #604829;
+    max-width: 600px;
+    margin: 0 auto;
+    text-shadow:1px 5px 3px #000000;
+    font-size: 13px;
+    color: #fff;
+    border-radius: 4px;
+    padding: 5px 0;
+}
+.contatos{
+    padding: 15px 0;
+}
+.contatos p{
+    color: #fff;
+}
+#contatos h2, #horarios h2{
+    font-size: 27px; 
+    text-transform: uppercase;
+    font-family: 'oswald', sans-serif;
+}
+#contatos{
+    background-image: url('img/parallax-imagem4.png');
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+}
+iframe{
+    max-width: 1024px;
+    width: 100%;
+    margin: 50px 0 30px;
+}
+#horarios{
     background-image: url('img/cafeteria.jpg');
     background-size: cover;
     background-attachment: fixed;
-    height: 700px;
-    color: #fff;
-    width: 100%;
-    text-align: center;
-    padding-top: 10px;
+    padding-bottom: 50px;
+    
 }
-.atendimento h2{
-    font-family: 'lato';
-    font-size: 25px;
+.with-max-horario{
+     color: #fff;
+    text-align: center;
+    padding-top: 50px ;
 }
 .lista{
-    width:800px ;
-    height: 400px;
-    margin: 60px auto;
-    position: relative;
+    color: #fff;
+    font-size: 20px;
+    font-family: 'oswald';
+    font-weight: bold;
+    max-width:800px ;
+    margin: 0px auto;
+    padding: 50px 0;
 }
 .lista li{
-    text-align: left;
-    font-size: 20px;
-    line-height: 55px;
-    margin-top: 5;
-    font-family: 'oswald';
-    position: relative;
-    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height:50px;
 }
-.lista .hora{
-    position: absolute;
-    right: 0;
-    top:0;
-    font: size 15px; ;
+.dia div{
+        background-color: #fff;
+        width: 400px;
+        
+        height: 1px;
+        margin: 25px auto 0;
 }
-.lista .hora span{
+.dia span{
     color: #c4a47c;
-    margin-left: 10px;
+    text-transform: uppercase;
+    margin-right: 15px;
 }
-.lista li div hr{
-    position: absolute;
-    left: 0px;
-    right: 0px;
-    top: 55%;
-    width: 70%;
-    margin:  auto ;
+footer{
+    background-color: #000000;
+    width: 100%;
+    display: flex;
 }
 .rodape{
-    width: 100%;
-    background-color: #000000;
     color: #fff;
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position: relative;
-    font-family: 'lato', sans-serif;
-    font-size: 12px;
+    text-align: center;font-family: 'lato', sans-serif;
+    font-size: 15px;
     line-height: 15px;
-}
-.rodape .inicio{
-    position:absolute;
-    top: -35px;
-    right: 0;
-    width: 100px;
+    padding: 20px 0;
 }
 .rodape span{
     color: #c4a47c;
     font-family: 'fraunces', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
 .logos{
     width: 25px;
@@ -174,22 +205,16 @@
     margin-top: 10px;
     margin-bottom: -5px;
 }
-h3{
-    position:absolute;
-    color: #fff;
-    font-family: 'fraunces', sans-serif;
-    font-size: 22px;
-    top: 40%;
-    left: 35%;
-    background-color: #604829;
-    padding: 2px 30px;
+.logos:hover{
+    box-shadow:0 0 10px 2px #c4a47c;
 }
-h1{
-    position:absolute;
-    left:15%;
-    top: 40%;
-    color:#fff;
-    font-family: 'FRAUNCES',serif;
-    font-size: 65px;
-    font-weight: 100;
+.inicio a{
+    width: 100px;
+    display: flex;
+    align-items: flex-start;
+    margin-top: -30px;
+}
+.inicio a img:hover{
+    border-radius: 50%;
+    box-shadow:0 0 10px 2px #c4a47c;
 }
