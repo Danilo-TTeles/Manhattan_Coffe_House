@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 .menu{
     width: 100%;
-    background-color: #604829;
+    background: linear-gradient(to bottom,#c4a47c,#604829 ,#c4a47c);
     position: fixed;
     z-index: 1;
-    box-sizing: border-box;
+    border-bottom: 1px solid gray;
+    box-shadow: 0 10px 50px 10px #000000;
+    opacity: 0.9;
 }
 .with-max-menu{
     max-width: 1024px;
@@ -42,7 +45,7 @@
     border-bottom: 1px solid #c4a47c;
 }
 .banner{
-    background-image: url('img/parallax-imagem1.png');
+    background-image: url('../img/parallax-imagem1.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -76,6 +79,8 @@
 }
 .with-max p{
     color: #727171;
+    width: 80%;
+    margin: 0 auto;
 }
 .img-1, .img-2{
     background-size: cover;
@@ -103,10 +108,10 @@
     border-radius: 3px;
 }
 .img-1{
-    background-image: url('img/parallax-imagem2.jpg');
+    background-image: url('../img/parallax-imagem2.jpg');
 }
 .img-2{
-    background-image: url('img/parallax-imagem3.jpg');
+    background-image: url('../img/parallax-imagem3.jpg');
 }
 .contatos , #contatos h2{
     text-align: center;
@@ -131,7 +136,7 @@
     font-family: 'oswald', sans-serif;
 }
 #contatos{
-    background-image: url('img/parallax-imagem4.png');
+    background-image: url('../img/parallax-imagem4.png');
     background-size: cover;
     background-attachment: fixed;
     padding-bottom: 50px;
@@ -139,10 +144,13 @@
 iframe{
     max-width: 1024px;
     width: 100%;
+    opacity: 0.8;
     margin: 50px 0 30px;
+    
+    
 }
 #horarios{
-    background-image: url('img/cafeteria.jpg');
+    background-image: url('../img/cafeteria.jpg');
     background-size: cover;
     background-attachment: fixed;
     padding-bottom: 50px;
@@ -169,11 +177,10 @@ iframe{
     line-height:50px;
 }
 .dia div{
-        background-color: #fff;
-        width: 400px;
-        
-        height: 1px;
-        margin: 25px auto 0;
+    background-color: #fff;
+     width: 400px;
+    height: 1px;
+     margin: 25px auto 0;
 }
 .dia span{
     color: #c4a47c;
@@ -198,7 +205,7 @@ footer{
     font-size: 16px;
 }
 .logos{
-    width: 25px;
+    width: 30px;
     background-color: #fff;
     border-radius: 50%;
     margin-left: 10px;
@@ -208,13 +215,16 @@ footer{
 .logos:hover{
     box-shadow:0 0 10px 2px #c4a47c;
 }
-.inicio a{
-    width: 100px;
-    display: flex;
-    align-items: flex-start;
-    margin-top: -30px;
+footer .inicio a{
+    margin-right: 50px;
+    
 }
-.inicio a img:hover{
+footer .inicio a img{
+    width: 50px;
+    opacity: 0.8;
+    margin-top:-40px;
+}
+footer .inicio a img:hover{
     border-radius: 50%;
     box-shadow:0 0 10px 2px #c4a47c;
 }
