@@ -1,0 +1,122 @@
+@media (max-width:480px){
+    .width-max-menu div img{
+     width: 5px;  
+    }
+    .navegacao a{
+        font-size: 28px;
+        padding-bottom: 10px;
+        margin-left: 0;
+    }
+    .with-max-menu{
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-around; 
+    }
+    .with-max-menu .navegacao{
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+    }
+    
+    main .banner{
+        max-width: 480px;
+        width: 100%;
+        height: 500px;
+        background-position: center;
+        background-size: cover;  
+    }
+    main .banner h1{
+        font-size: 30px;
+        margin-top: 100px;
+    }
+    main .with-max, .with-max-horario{
+        max-width: 480px;
+        width: 90%;
+        margin: 0 auto
+    }
+    main .with-max p{
+        width: 100%;
+    }
+    .with-max-horario ul li div{
+        visibility: hidden;
+        width: 50%;
+    }
+    footer {
+        padding: 25px 0 5px;
+    }
+    footer .inicio a img{
+       margin-top:-50px;
+        margin-right: 5px;
+    }
+    footer .rodape{
+        padding: 10px 0;
+    }
+    footer p{   
+        text-align: center;
+    }
+    
+}
+
+@media (min-width:481px)
+and     (max-width:768px){
+    main .banner{
+        max-width: 768px;
+        width: 100%;
+        height: 700px;
+        background-position: center;
+        background-size: cover;  
+    }
+    .with-max-menu{
+        width: 90%;
+        flex-direction: column;
+        align-items:center;
+    }
+    .with-max-menu a{
+        font-size: 25px;
+        padding: 0 0 10px;
+    }
+    .with-max, .with-max-horario{
+        max-width: 768px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .with-max p{
+        width: 100%;
+    }
+    #contatos{
+        margin-top: 20px;
+    }
+    .with-max-horario ul li div{
+        visibility: hidden;
+        width: 50%;
+    }
+    footer {
+        padding: 25px 0 5px;
+    }
+    footer .inicio a img{
+        margin-top:-50px;
+         margin-right: 15px;
+     }
+}
+
+@media (min-width:769px)
+and     (max-width:1024px){
+    main .banner{
+        max-width: 1024px;
+        width: 100%;
+        height: 700px;
+        background-position: center;
+        background-size: cover;  
+    }
+    .with-max-menu{
+        width: 90%;
+    }
+    #contatos{
+        margin-top: 20px;
+    }
+    .with-max, .with-max-horario{
+        max-width: 768px;
+        width: 90%;
+        margin: 0 auto;
+    }
+}

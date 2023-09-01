@@ -26,7 +26,7 @@
     padding-top: 100px;
 }
 .with-max-menu img{
-    width: 100px;
+    width: 80px;
 }
 .navegacao{
     display: flex;
@@ -60,13 +60,16 @@
     font-size: 40px;
     text-align: center;
 }
+main{
+    background-color: #f0ffff;
+}
 .with-max, .rodape{
     max-width:1024px ;
     margin: 0 auto;
 }
 .with-max h2{
     text-align: center;
-    color: #c4a47c;
+    color: #604829;
     font-family: 'oswald', sans-serif;
     font-size: 27px;
     margin-bottom: 30px;
@@ -95,10 +98,12 @@
     justify-content: center;
     align-items: center;
     margin-top: 50px;
+    box-shadow: 0 10px 50px 10px #000000;
 }
 .img-1 h3, .img-2 h3{
     background-color: #604829;
     text-shadow:1px 5px 3px #000000;
+    opacity: 0.9;
     max-width: 600px;
     width: 100%;
     text-align: center;
@@ -116,6 +121,7 @@
 .contatos , #contatos h2{
     text-align: center;
     background-color: #604829;
+    opacity: 0.9;
     max-width: 600px;
     margin: 0 auto;
     text-shadow:1px 5px 3px #000000;
@@ -134,27 +140,27 @@
     font-size: 27px; 
     text-transform: uppercase;
     font-family: 'oswald', sans-serif;
+    
 }
 #contatos{
     background-image: url('../img/parallax-imagem4.png');
     background-size: cover;
     background-attachment: fixed;
     padding-bottom: 50px;
+    margin-top: 30px;
 }
 iframe{
     max-width: 1024px;
     width: 100%;
     opacity: 0.8;
     margin: 50px 0 30px;
-    
-    
+    border-radius: 15px;  
 }
 #horarios{
     background-image: url('../img/cafeteria.jpg');
     background-size: cover;
     background-attachment: fixed;
-    padding-bottom: 50px;
-    
+    padding-bottom: 50px;  
 }
 .with-max-horario{
      color: #fff;
@@ -215,14 +221,12 @@ footer{
 .logos:hover{
     box-shadow:0 0 10px 2px #c4a47c;
 }
-footer .inicio a{
-    margin-right: 50px;
-    
-}
+
 footer .inicio a img{
     width: 50px;
     opacity: 0.8;
     margin-top:-40px;
+    margin-right: 50px;
 }
 footer .inicio a img:hover{
     border-radius: 50%;
